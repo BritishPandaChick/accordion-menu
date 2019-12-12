@@ -31,6 +31,8 @@ body {
   line-height: 34px;
   padding: 0 10px;
   cursor: pointer;
+  /* fallback for browsers not supporting gradients */
+  background: #003040;
   background: linear-gradient(#003040, #002535);
 }
 
